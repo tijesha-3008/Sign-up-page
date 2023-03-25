@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel ="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+      <h1>SIGN UP</h1>
+      <label for="name">NAME:</label>
+      <input type="text" id="name"><br>
+      <label for="email">EMAIL:</label>
+      <input type="email" id="email"><br>
+      <label for="password">PASSWORD:</label>
+      <input type="password" id="password"><br>
+      <label for="job">JOB ROLE:</label>
+      <select name="job" id="job">
+        <option value="software_development_engineer"> Software Development Engineer </option>
+        <option value="Blockchain_developer">Blockchain Developer</option>
+        <option value="PHP_Developer">PHP Developer</option>
+        <option value="Android_developer">Android Developer</option>
+        <option value="Full_stack_developer">Full Stack Developer</option>
+      </select>
+      <label>INTERESTS:</label>
+      <input type="checkbox" name="development" id="development">
+      <span for="development">Development</span><br>
+      <input type="checkbox" name="design" id="design">
+      <span for="design">Design</span><br>
+      <input type="checkbox" name="business" id="business">
+      <span for="business">Business</span><br>
+      <button type="submit" id="sign-up">Sign Up</button>
+      <div id="login">Already have an account? <a href="">Login here</a></div>
+    </form>
+</body>

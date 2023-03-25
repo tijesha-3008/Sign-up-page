@@ -1,0 +1,55 @@
+body{
+    font-family:sans-serif
+}
+form {
+ width: 400px;
+ background:#f4f7f8;
+ margin:10px auto;
+ padding: 20px 60px;
+ border-radius: 8px;
+
+}
+
+h1{
+    text-align:center;
+}
+label{
+    display:block;
+    margin-bottom:8px;
+}
+#name,#email,#password,#job
+{
+    border:none;
+    background-color:#e8eeef;
+    color:#8a97a0;
+    font-size:16px;
+    width:100%;
+    padding:15px;
+    margin-bottom:30px;
+}
+#sign-up
+{
+    width:100%;
+    padding:20px 40px;
+    background-color: #4bc970;
+    color:#fff;
+    border:1px solid #43bd67;
+    font-size:18px;
+    border-radius:6px;
+    margin-top:18px;
+    margin-bottom:12px;
+}
+#sign-up:hover{
+    background-color:#5ece7f;
+}
+#login
+{
+    text-align:center;
+    margin-top:10px;
+    font-size:16px;
+}
+a{
+  text-decoration:none;
+  color:blue;
+  font-weight: 700;
+}
